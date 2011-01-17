@@ -1,0 +1,24 @@
+Solututions to quesiton numbers 8-11
+
+// number of vowels in given str
+String str = "hey this is me "
+List list = "aeiou" as List
+println str.findAll{list.contains(it.toLowerCase())}.size
+
+
+// Occurance of element in String
+String str = "hey this is me "
+println str.findAll{it=="i"}.size()
+
+
+// Elements after J
+("a".."z").findAll{it > "j"}
+
+
+//Table of given number
+Integer number = 5
+(1..10).each{
+println "${number} x ${it} = ${number*it}"}
+
+
+
